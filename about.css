@@ -1,0 +1,68 @@
+.about_container {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.cards_container{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.para1{
+  width: 40%;
+  margin: auto;
+}
+
+.abouts{
+  text-align: center;
+  padding: 2rem;
+  height: 80vh;
+  width: 100vw;
+  background-image: url(./images/header-bg.svg);
+  background-size: cover;
+}
+
+
+.cards {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.card p{
+  margin: 1rem auto;
+  text-align: center;
+}
+.card img{
+  margin: 1rem auto;
+  display: flex;
+  height: 36%;
+  width: 36%;
+  border-radius: 50%;
+}
+
+.card-body h3{
+  text-align: center;
+}
+
+.para{
+  width: 80%;
+}
+
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .about-section {
+      flex-direction: column;
+  }
+
+  .about {
+      margin: 1rem auto;
+  }
+}
